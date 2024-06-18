@@ -22,7 +22,7 @@ password = "Admin_1234!"
 
 response = requests.post(url, headers=headers, auth=(username, password),data=payload, verify=False).json()
 
-pprint(response)
+#pprint(response)
 token = response['imdata'][0]['aaaLogin']['attributes']['token']
 print(token)
 #pprint(response.imdata[0].aaaLogin.attributes.token)
