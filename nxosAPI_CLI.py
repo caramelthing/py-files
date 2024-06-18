@@ -1,4 +1,4 @@
-#connect to nexus api
+#connect to nexus cliapi
 #body taken from Postman / nxapi tool
 import requests 
 import json 
